@@ -1,8 +1,8 @@
-const createNode = (value = null) => {
-  return {
-    value: value,
-    next: null,
-  };
-};
+class Node {
+  constructor(value = null) {
+    this.value = value;
+    this.next = null;
+  }
+}
 
-export default createNode;
+export default Node;
